@@ -24,26 +24,21 @@ export function AnnoyingButton() {
 
   return (
     <div
+      className="Annoying-btn-container"
       style={{
         backgroundImage: `url(${trollVisible ? background : ""})`,
-        backgroundPosition: "center",
-        backgroundSize: "auto",
-        backgroundRepeat: "no-repeat",
-        width: "100vw",
-        height: "100vh",
       }}
     >
       <button
+        className="Annoying-btn"
         style={{
-          position: "absolute",
-          fontSize: "24px",
           top: btnPos.y,
           left: btnPos.x,
         }}
         onMouseEnter={handleMouseEnter}
         onClick={handleClick}
       >
-        Klikk for å spole frem til middag! 🍔
+        Klikk for å spole frem til middag! 🍕
       </button>
     </div>
   );
