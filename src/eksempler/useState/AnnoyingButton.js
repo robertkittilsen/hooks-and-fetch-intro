@@ -16,7 +16,6 @@ export function AnnoyingButton() {
       y: randomY + "px",
     });
     setTrollVisible(true);
-    console.log("MOUSE ENTER");
   }
 
   function handleClick() {
