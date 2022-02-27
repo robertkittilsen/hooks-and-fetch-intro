@@ -7,12 +7,12 @@ import {
   LessText,
 } from "./eksempler/useState";
 import { Timer, DOMManipulation, Fetching } from "./eksempler/useEffect/";
+import { Oppgave1, Oppgave2, Oppgave3, Oppgave4 } from "./oppgaver";
+import { Fasit1, Fasit2, Fasit3, Fasit4 } from "./fasit";
 
 function UseStateEksempler() {
   return (
     <>
-      {/* useState eksempler 👇 */}
-
       {/* <Counter /> */}
       {/* <NamePrompt /> */}
       {/* <LessText
@@ -29,11 +29,31 @@ function UseStateEksempler() {
 function UseEffectEksempler() {
   return (
     <>
-      {/* useEffect eksempler 👇 */}
-
       {/* <DOMManipulation /> */}
       {/* <Timer /> */}
       {/* <Fetching /> */}
+    </>
+  );
+}
+
+function Oppgaver() {
+  return (
+    <>
+      {/* <Oppgave1 /> */}
+      {/* <Oppgave2 /> */}
+      {/* <Oppgave3 /> */}
+      {/* <Oppgave4 /> */}
+    </>
+  );
+}
+
+function Fasit() {
+  return (
+    <>
+      {/* <Fasit1 /> */}
+      {/* <Fasit2 /> */}
+      {/* <Fasit3 /> */}
+      {/* <Fasit4 /> */}
     </>
   );
 }
@@ -44,6 +64,8 @@ function App() {
       <header className="App-header">
         <UseStateEksempler />
         <UseEffectEksempler />
+        <Oppgaver />
+        <Fasit />
       </header>
     </div>
   );

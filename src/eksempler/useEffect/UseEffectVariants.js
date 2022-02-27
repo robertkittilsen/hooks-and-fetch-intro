@@ -11,7 +11,7 @@ export default function UseEffectVariants(prop, state) {
 
   useEffect(() => {
     // Kjører på første render
-    // og hver gang en avhengighets verdi endres
+    // og hver gang en avhengighet endres
   }, [prop, state]);
 
   return <div>useEffect variants</div>;

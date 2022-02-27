@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import background from "../../assets/trolololo.png";
 
 export function AnnoyingButton() {
@@ -7,6 +7,13 @@ export function AnnoyingButton() {
     y: window.innerHeight / 2 - 20 + "px",
   });
   const [trollVisible, setTrollVisible] = useState(false);
+  const [failCount, setFailCount] = useState(0);
+
+  useEffect(() => {
+    if (failCount >= 10) {
+      alert("Hah TROLOLO! På tide å begynne med oppgavene ;)");
+    }
+  }, [failCount]);
 
   function handleMouseEnter() {
     const randomX = Math.floor(Math.random() * (window.innerWidth - 400));
@@ -16,6 +23,7 @@ export function AnnoyingButton() {
       y: randomY + "px",
     });
     setTrollVisible(true);
+    setFailCount(failCount + 1);
   }
 
   function handleClick() {
