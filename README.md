@@ -39,11 +39,13 @@ Lykke til!
 
 ## Ressurser for videre læring
 
-Hooks:
-https://reactjs.org/docs/hooks-intro.html
-https://reactjs.org/docs/hooks-reference.html
-https://reactjs.org/docs/hooks-state.html
+### Hooks:
 
-Fetch:
-https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
-https://www.freecodecamp.org/news/fetch-data-react/
+- https://reactjs.org/docs/hooks-intro.html
+- https://reactjs.org/docs/hooks-reference.html
+- https://reactjs.org/docs/hooks-state.html
+
+### Fetch:
+
+- https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+- https://www.freecodecamp.org/news/fetch-data-react/
