@@ -9,6 +9,10 @@ Laget for React-fagruppemøtet 28.02.2022.
 2. Naviger til prosjektmappen og skriv `npm install` i terminal
 3. For å starte prosjektet skriv `npm start` i terminal. Etter en liten stund vil prosjektet være tilgjengelig på `localhost:3000`
 
+## Presentasjon
+
+Tilhørende presentasjon finner du som `.pptx` og `.pdf` i mappen `src/presentasjon`
+
 ## Oppgaver
 
 Når du starter dette prosjektet er det komponenten "AnnoyingButton" som vises.
